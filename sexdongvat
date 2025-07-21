@@ -2376,7 +2376,8 @@ local excludedFruits = {
     ["DragonFruit"] = true,
     ["PhoenixFruit"] = true,
     ["ToyFruit"] = true,
-    ["OpFruit"] = true
+    ["OpFruit"] = true,
+    ["MelodyFruit"] = true
 }
 
 -- 🔍 Kiểm tra Backpack và tìm các Fruit hợp lệ
@@ -4114,7 +4115,7 @@ RunService.RenderStepped:Connect(function()
 end)
 
 hubTab:AddSection({
-    Name = "Cre: Duy Khánh"
+    Name = "Cre: Duy Khánh,Quang Vinh"
 })
 
 hubTab:AddSection({
